@@ -78,8 +78,7 @@ CREATE TABLE `word_set` (
 -- ----------------------------
 -- Records 
 -- ----------------------------
-INSERT INTO `user` VALUES ('1', 'miaofc', '5129eb31abd1c19bd1077c3a90cd0f0b', '0', '苗傅澄', 'miaofucheng@sina.com');
-INSERT INTO `user` VALUES ('2', 'test', '098f6bcd4621d373cade4e832627b4f6', '0', 'test', '');
-INSERT INTO `user` VALUES ('3', 'test2', '05a671c66aefea124cc08b76ea6d30bb', '0', 'test2', '');
-INSERT INTO `user` VALUES ('4', 'test3', '05a671c66aefea124cc08b76ea6d30bb', '0', 'test3', '');
-INSERT INTO `user` VALUES ('5', 'test4', '05a671c66aefea124cc08b76ea6d30bb', '0', 'test4', '');
+INSERT INTO `user` VALUES ('test', '098f6bcd4621d373cade4e832627b4f6', '0', 'test', '');
+INSERT INTO `user` VALUES ('test2', '05a671c66aefea124cc08b76ea6d30bb', '0', 'test2', '');
+INSERT INTO `user` VALUES ('test3', '05a671c66aefea124cc08b76ea6d30bb', '0', 'test3', '');
+INSERT INTO `user` VALUES ('test4', '05a671c66aefea124cc08b76ea6d30bb', '0', 'test4', '');
