@@ -1,0 +1,285 @@
+body {
+	font-size: 9pt;
+	text-align: center;
+	scrollbar-face-color: #9EBFE8;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #9EBFE8;
+	scrollbar-darkshadow-color: #9EBFE8;
+	scrollbar-track-color: #FFFFFF;
+	scrollbar-arrow-color: #FFFFFF;
+}
+
+a {
+	color: #F0870C;
+	text-decoration: none
+}
+
+a:hover {
+	color: #f50;
+	text-decoration: underline
+}
+
+a:active {
+	color: #800080
+}
+
+a:focus {
+	outline: none
+}
+
+a.u {
+	text-decoration: underline
+}
+
+a.u:hover {
+	text-decoration: none
+}
+
+.alg_c {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.h300 {
+	height: 300px;
+}
+
+.w800 {
+	width: 800px;
+}
+
+.w400 {
+	width: 400px;
+}
+
+.m_t100 {
+	margin-top: 100px;
+}
+
+.m_t50 {
+	margin-top: 50px;
+}
+
+.input_text {
+	margin: 0px 10px;
+	width: 160px;
+}
+
+.label {
+	display: block;
+	float: left;
+	width: 140px;
+	text-align: right;
+}
+
+#userlist {
+	width: 198px;
+	height: 498px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	float: left;
+	margin-right: 15px;
+	overflow: auto;
+}
+
+#userlist ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #D5EAFB;
+}
+
+#userlist ul li {
+	padding: 5px 0px 5px 15px;
+	border-bottom: 1px solid #D5EAFB;
+	cursor: pointer;
+}
+
+#roomlist {
+	width: 577px;
+	height: 318px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	float: left;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+#roomlist ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #D5EAFB;
+}
+
+#roomlist ul li {
+	padding: 5px 0px 5px 15px;
+	border-bottom: 1px solid #D5EAFB;
+	cursor: pointer;
+}
+
+#chat_hall {
+	width: 577px;
+	height: 161px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	float: left;
+}
+
+#chat_content {
+	height: 139px;
+	padding: 0px;
+	overflow: auto;
+}
+
+#chat_content p {
+	width: 545px;
+	margin: 7px 0px 0px 7px;
+	padding: 0px 0px 7px 0px;
+	border-bottom: 1px dashed #D5EAFB;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+#chat_input {
+	width: 525px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#chat_btn {
+	width: 45px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+.item_title {
+	font-size: 11pt;
+	margin: 10px;
+	color: #4E4E4E;
+}
+
+.item_title a {
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+#testimony_hall {
+	width: 577px;
+	height: 323px;
+	margin-bottom: 10px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	float: left;
+}
+
+#testimony_content {
+	height: 260px;
+	padding: 0px;
+	overflow: auto;
+	border-top: 1px solid #D5EAFB;
+}
+
+#testimony_content p {
+	width: 545px;
+	margin: 7px 0px 0px 7px;
+	padding: 0px 0px 7px 0px;
+	border-bottom: 1px dashed #D5EAFB;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+#testimony_input {
+	width: 525px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#testimony_btn {
+	width: 45px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#roomchat_hall {
+	width: 577px;
+	height: 161px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	float: left;
+}
+
+#roomchat_content {
+	height: 98px;
+	padding: 0px;
+	overflow: auto;
+	border-top: 1px solid #D5EAFB;
+}
+
+#roomchat_content p {
+	width: 545px;
+	margin: 7px 0px 0px 7px;
+	padding: 0px 0px 7px 0px;
+	border-bottom: 1px dashed #D5EAFB;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+#roomchat_input {
+	width: 525px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#roomchat_btn {
+	width: 45px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#roomuserlist {
+	width: 198px;
+	height: 323px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+#roomuserlist ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid #D5EAFB;
+}
+
+#roomuserlist ul li {
+	padding: 5px 0px 5px 15px;
+	border-bottom: 1px solid #D5EAFB;
+	cursor: pointer;
+}
+
+#roomstatus {
+	width: 198px;
+	height: 160px;
+	border: 2px solid #D5EAFB;
+	text-align: left;
+	margin-right: 15px;
+	overflow: auto;
+}
+
+#left {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
